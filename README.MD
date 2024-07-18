@@ -13,6 +13,73 @@ Este es el instructivo oficial de contenedores docker para ITConsultants, este m
 <br>
 > ITConsultants
 
+<!-- links de MD individuales -->
+
+<br>
+
+### Zabbix 
+[Zabbix](./zabbix/README.md)
+
+<br>
+
+### odoo
+[Odoo](./odoo/README.md)
+
+<br>
+
+### duplicati
+[Duplicati](./duplicati/README.md)
+
+<br>
+
+### Grafana 
+[Grafana](./grafana/README.md)
+
+<br>
+
+### RabbitMQ
+[RabbitMQ](./rabbitmq/README.md)
+
+<br>
+
+### PostgreSQL
+[PostgreSQL](./postgresql/README.md)
+
+<br>
+
+### MySQL
+[MySQL](./mysql/README.md)
+
+<br>
+
+### MongoDB
+[MongoDB](./mongodb/README.md)
+
+<br>
+
+### Apache
+[Apache](./apache/README.md)
+
+<br>
+
+### Nginx
+[Nginx](./nginx/README.md)
+
+<br>
+
+### Portainer
+[Portainer](./portainer/README.md)
+
+<br>
+
+### Kubernetes
+[Kubernetes](./kubernetes/README.md)
+
+<br>
+
+### OpenShift
+[OpenShift](./openshift/README.md)
+
 
 <!-- tabla de contenidos     -->
 
@@ -21,4 +88,6 @@ Este es el instructivo oficial de contenedores docker para ITConsultants, este m
 Este instructivo tiene como objetivo guiar a los agentes en el proceso de despliegue y uso de los contenedores docker para los servicios de ITConsultants.
 
 <!-- alternativas para despliegue -->
+
+<br>
 
