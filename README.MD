@@ -80,6 +80,10 @@ Este es el instructivo oficial de contenedores docker para ITConsultants, este m
 ### OpenShift
 [OpenShift](./openshift/README.md)
 
+## Honeytrap
+
+[Honeytrap](./honeytrap/README.md)
+
 
 <!-- tabla de contenidos     -->
 
