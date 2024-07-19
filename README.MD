@@ -47,6 +47,6 @@ Este es el instructivo oficial de contenedores docker para ITConsultants. Este m
 
 ## 0 Introducción
 
-Este instructivo tiene como objetivo guiar a los agentes en el proceso de despliegue y uso de los contenedores docker para los servicios de ITConsultants.
+[Introducción]()
 
 <!-- alternativas para despliegue -->
