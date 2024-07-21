@@ -1,4 +1,5 @@
 <!-- Instructivo so/bre como desplegar y usar los contenedores docker de los servicios ITC -->
+<!--  -->
 
 # Instructivo de contenedores docker
 
@@ -42,11 +43,38 @@ Este es el instructivo oficial de contenedores docker para ITConsultants. Este m
 [Duplicati](./duplicati/README.md)
 </br>
 [Grafana](./grafana/README.md)
+</br>
+[Neesus](./neesus/README.md)
+</br>
+[Wazuh](./wazuh/README.md)
 
 </br>
 
 ## 0 Introducción
 
-[Introducción]()
+Documentación
 
-<!-- alternativas para despliegue -->
+[Introducción](https://github.com/docker)
+Usar Docker Compose es un proceso de tres pasos:
+Definir el ambiente de tu aplicación con un Dockerfile para que se pueda reproducir en cualquier parte.
+Definir los servicios que componen tu app en el yaml para que puedan correr juntos en un ambiente aislado.
+Finalmente, correr docker compose y Compose empezará a correr tu app completa.
+Un archivo docker-compose se ve así:
+
+```yaml
+version: "2.1"
+services:
+  heimdall:
+    image: linuxserver/heimdall
+    container_name: heimdall
+    volumes:
+      - /home/user/appdata/heimdall:/config
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    ports:
+      - 80:80
+      - 443:443
+    restart: unless-stopped
+```
