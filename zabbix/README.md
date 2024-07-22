@@ -4,7 +4,8 @@
 
 Esta es la documentación de la instalación de Zabbix usando Docker compose
 git clone https://github.com/jcortes-itc/containers-itc.git
-```
+
+1. git clone https://github.com/jcortes-itc/containers-itc.git
 
 2. Navegar al directorio de Zabbix:
 
