@@ -1,35 +1,32 @@
 # Zabbix Docker
 
-# README.MD
-
 Esta es la documentación de la instalación de Zabbix usando Docker compose
-git clone <https://github.com/jcortes-itc/containers-itc.git>
 
-1. clonar el repositorio
+* clonar el repositorio
 
 ```bash
-git clone <https://github.com/jcortes-itc/containers-itc.git>
+git clone https://github.com/jcortes-itc/containers-itc.git
 ```
 
-2. Navegar al directorio de Zabbix:
+* Navegar al directorio de Zabbix:
 
 ```bash
 cd containers-itc/zabbix
 ```
 
-3. Crear la red de Docker:
+* Crear la red de Docker:
 
 ```bash
 docker network create zabbix-net
 ```
 
-4. Construir la imagen de Docker:
+* Construir la imagen de Docker:
 
 ```bash
 docker-compose build
 ```
 
-5. Iniciar los contenedores:
+* Iniciar los contenedores:
 
 ```bash
 docker-compose up -d
