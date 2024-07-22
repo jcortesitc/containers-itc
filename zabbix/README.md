@@ -3,9 +3,13 @@
 # README.MD
 
 Esta es la documentación de la instalación de Zabbix usando Docker compose
-git clone https://github.com/jcortes-itc/containers-itc.git
+git clone <https://github.com/jcortes-itc/containers-itc.git>
 
-1. git clone https://github.com/jcortes-itc/containers-itc.git
+1. clonar el repositorio
+
+```bash
+git clone <https://github.com/jcortes-itc/containers-itc.git>
+```
 
 2. Navegar al directorio de Zabbix:
 
@@ -33,22 +37,22 @@ docker-compose up -d
 
 ## Acceso
 
-* Zabbix Server: http://localhost:8080
-* Zabbix Agent: http://localhost:10050
+* Zabbix Server: <http://localhost:8080>
+* Zabbix Agent: <http://localhost:10050>
 
 ## Configuración
 
 * **Zabbix Server:**
-    * **Base de datos:**
-        * **Usuario:** zabbix
-        * **Contraseña:** zabbix
-        * **Base de datos:** zabbix
-    * **Servidor web:**
-        * **Puerto:** 8080
+  * **Base de datos:**
+    * **Usuario:** zabbix
+    * **Contraseña:** zabbix
+    * **Base de datos:** zabbix
+  * **Servidor web:**
+    * **Puerto:** 8080
 * **Zabbix Agent:**
-    * **Servidor:** 127.0.0.1
-    * **Puerto:** 10051
-    * **Identificador:** 10050
+  * **Servidor:** 127.0.0.1
+  * **Puerto:** 10051
+  * **Identificador:** 10050
 
 ## Notas
 
