@@ -36,6 +36,8 @@ Este es el instructivo oficial de contenedores docker para ITConsultants. Este m
 
 </br>
 
+### Documentación individual de aplicaciones
+
 [Zabbix](./zabbix/README.md)
 </br>
 [Odoo](./odoo/README.md)
@@ -50,11 +52,10 @@ Este es el instructivo oficial de contenedores docker para ITConsultants. Este m
 
 </br>
 
-## 0 Introducción
+## Introducción
 
 Documentación
 
-[Introducción](https://github.com/docker)
 Usar Docker Compose es un proceso de tres pasos:
 Definir el ambiente de tu aplicación con un Dockerfile para que se pueda reproducir en cualquier parte.
 Definir los servicios que componen tu app en el yaml para que puedan correr juntos en un ambiente aislado.
@@ -78,3 +79,13 @@ services:
       - 443:443
     restart: unless-stopped
 ```
+
+</br>
+
+## Documentación adicional
+
+[Debian](https://www.debian.org/index.es.html)
+</br>[Docker](https://docs.docker.com/)
+</br>[Docker Compose](https://docs.docker.com/compose/compose-file)
+</br>[Tmux](https://github.com/tmux/tmux/wiki)
+</br>[Zsh](https://www.zsh.org/)
