@@ -60,25 +60,25 @@ docker-compose up -d
 
 ## Desinstalación
 
-1. Detener los contenedores:
+* Detener los contenedores:
 
 ```bash
 docker-compose down
 ```
 
-2. Eliminar los contenedores:
+* Eliminar los contenedores:
 
 ```bash
 docker-compose rm -f
 ```
 
-3. Eliminar la red de Docker:
+* Eliminar la red de Docker:
 
 ```bash
 docker network rm zabbix-net
 ```
 
-4. Eliminar la imagen de Docker:
+* Eliminar la imagen de Docker:
 
 ```bash
 docker image prune -f
@@ -86,13 +86,13 @@ docker image prune -f
 
 ## Actualización
 
-1. Detener los contenedores:
+* Detener los contenedores:
 
 ```bash
 docker-compose down
 ```
 
-2. Actualizar la imagen de Docker:
+* Actualizar la imagen de Docker:
 
 ```bash
 docker-compose pull
